@@ -3,13 +3,13 @@
     "prefix": "sbase",
     "body": [
       "<script>",
-      "$1",
+      "",
       "</script>",
       "",
-      "$2",
+      "$0",
       "",
       "<style>",
-      "$0",
+      "",
       "</style>"
     ],
     "description": "Svelte Template SCRIPT-MARKUP-STYLE"
@@ -17,24 +17,16 @@
   "Svelte if block": {
     "prefix": "sif",
     "body": ["{#if ${1:expression}}", "$0", "{/if}"],
-    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+    "description": "Svelte if block"
   },
-  "Svelte if else block": {
-    "prefix": "sifelse",
-    "body": ["{#if ${1:expression}}", "$0", "{:else}", "", "{/if}"],
-    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+  "Svelte else block": {
+    "prefix": "selse",
+    "body": ["{:else}", "$0"],
+    "description": "Svelte else block"
   },
-  "Svelte if, else if, else block": {
+  "Svelte else if block": {
     "prefix": "selif",
-    "body": [
-      "{#if ${1:expression}}",
-      "$0",
-      "{:else if ${2:expression2}}",
-      "",
-      "{:else}",
-      "",
-      "{/if}"
-    ],
-    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+    "body": ["{:else if ${2:expression2}}", "$0"],
+    "description": "Svelte else if block"
   }
 }
