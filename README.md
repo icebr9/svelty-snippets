@@ -4,9 +4,10 @@ This extension is providing you with common snippets to use in `.svelte` files
 
 ## Features
 
-1. sif
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. sbase
+2. sif
+3. sifelse
+4. selif
 
 ## Requirements
 

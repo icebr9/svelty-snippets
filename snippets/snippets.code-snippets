@@ -1,7 +1,40 @@
 {
-  "Print to console": {
-    "prefix": "log",
-    "body": ["console.log('$1');", "$2"],
-    "description": "Log output to console"
+  "Base template for Svelte compontnet": {
+    "prefix": "sbase",
+    "body": [
+      "<script>",
+      "$1",
+      "</script>",
+      "",
+      "$2",
+      "",
+      "<style>",
+      "$0",
+      "</style>"
+    ],
+    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+  },
+  "Svelte if block": {
+    "prefix": "sif",
+    "body": ["{#if ${1:expression}}", "$0", "{/if}"],
+    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+  },
+  "Svelte if else block": {
+    "prefix": "sifelse",
+    "body": ["{#if ${1:expression}}", "$0", "{:else}", "", "{/if}"],
+    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+  },
+  "Svelte if, else if, else block": {
+    "prefix": "selif",
+    "body": [
+      "{#if ${1:expression}}",
+      "$0",
+      "{:else if ${2:expression2}}",
+      "",
+      "{:else}",
+      "",
+      "{/if}"
+    ],
+    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
   }
 }
