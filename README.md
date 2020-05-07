@@ -4,10 +4,14 @@ This extension is providing you with common snippets to use in `.svelte` files
 
 ## Features
 
-1. sbase
-2. sif
-3. sifelse
-4. selif
+### Svelte
+
+| Snippet   | Description                                 |
+| --------- | ------------------------------------------- |
+| `sbase`   | Single file component base                  |
+| `sif`     | Svelte {#if} {/if} block                    |
+| `sifelse` | Svelte {#if} {:else} {/if} block            |
+| `selif`   | Svelte {#if} {:else if} {:else} {/if} block |
 
 ## Requirements
 
