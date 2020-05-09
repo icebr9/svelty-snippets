@@ -26,7 +26,7 @@
   },
   "Svelte else if block": {
     "prefix": "selif",
-    "body": ["{:else if ${2:expression2}}", "$0"],
+    "body": ["{:else if ${1:expression2}}", "$0"],
     "description": "Svelte else if block"
   }
 }

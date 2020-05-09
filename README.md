@@ -6,12 +6,12 @@ This extension is providing you with common snippets to use in `.svelte` files
 
 ### Svelte
 
-| Snippet   | Description                                 |
-| --------- | ------------------------------------------- |
-| `sbase`   | Single file component base                  |
-| `sif`     | Svelte {#if} {/if} block                    |
-| `sifelse` | Svelte {#if} {:else} {/if} block            |
-| `selif`   | Svelte {#if} {:else if} {:else} {/if} block |
+| Snippet   | Description                |
+| --------- | -------------------------- |
+| `sbase`   | Single file component base |
+| `sif`     | Svelte {#if} {/if} block   |
+| `sifelse` | Svelte {:else}block        |
+| `selif`   | Svelte {:else if} block    |
 
 ## Requirements
 
