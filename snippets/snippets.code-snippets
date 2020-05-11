@@ -1,32 +1,51 @@
 {
-  "Base template for Svelte compontnet": {
-    "prefix": "sbase",
-    "body": [
-      "<script>",
-      "",
-      "</script>",
-      "",
-      "$0",
-      "",
-      "<style>",
-      "",
-      "</style>"
-    ],
-    "description": "Svelte Template SCRIPT-MARKUP-STYLE"
-  },
-  "Svelte if block": {
-    "prefix": "sif",
-    "body": ["{#if ${1:expression}}", "$0", "{/if}"],
-    "description": "Svelte if block"
-  },
-  "Svelte else block": {
-    "prefix": "selse",
-    "body": ["{:else}", "$0"],
-    "description": "Svelte else block"
-  },
-  "Svelte else if block": {
-    "prefix": "selif",
-    "body": ["{:else if ${1:expression2}}", "$0"],
-    "description": "Svelte else if block"
-  }
+    "Base template for Svelte compontnet": {
+        "prefix": "sbase",
+        "body": [
+            "<script>",
+            "",
+            "</script>",
+            "",
+            "$0",
+            "",
+            "<style>",
+            "",
+            "</style>"
+        ],
+        "description": "Svelte Template SCRIPT-MARKUP-STYLE"
+    },
+    "Svelte if block": {
+        "prefix": "svif",
+        "body": ["{#if ${1:expression}}", "$0", "{/if}"],
+        "description": "Svelte if block"
+    },
+    "Svelte else block": {
+        "prefix": "svelse",
+        "body": ["{:else}", "$0"],
+        "description": "Svelte else block"
+    },
+    "Svelte else if block": {
+        "prefix": "svelif",
+        "body": ["{:else if ${1:expression2}}", "$0"],
+        "description": "Svelte else if block"
+    },
+    "Svelte each block": {
+        "prefix": "sveach",
+        "body": ["{:each ${1:items} as ${2:item}", "$0", "{/each}"],
+        "description": "Svelte each block"
+    },
+    "Svelte each (key) block": {
+        "prefix": "sveachk",
+        "body": ["{:each ${1:items} as ${2:item} (${3:key})", "$0", "{/each}"],
+        "description": "Svelte each (key) block"
+    },
+    "Svelte each index(key) block": {
+        "prefix": "sveachik",
+        "body": [
+            "{:each ${1:items} as ${2:item}, ${3:index} (${4:key})",
+            "$0",
+            "{/each}"
+        ],
+        "description": "Svelte each index (key) block"
+    }
 }
