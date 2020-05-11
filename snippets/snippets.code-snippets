@@ -1,6 +1,6 @@
 {
     "Base template for Svelte compontnet": {
-        "prefix": "sbase",
+        "prefix": "svbase",
         "body": [
             "<script>",
             "",
