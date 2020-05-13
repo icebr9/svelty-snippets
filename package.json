@@ -2,7 +2,7 @@
   "name": "svelty-snippets",
   "displayName": "Svelty Snippets",
   "description": "Snippets for Svelte v3",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "icebr9",
   "engines": {
     "vscode": "^1.44.0"
