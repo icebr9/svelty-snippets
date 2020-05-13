@@ -47,5 +47,18 @@
             "{/each}"
         ],
         "description": "Svelte each index (key) block"
+    },
+    "Svelte {#await}...{:then}...{:catch}...{/await} block": {
+        "prefix": "svawait",
+        "body": [
+            "{#await ${1:expression}}",
+            "$0",
+            "{:then ${2:name}}",
+            "",
+            "{:catch ${3:name}}",
+            "",
+            "{/await}"
+        ],
+        "description": "Svelte each index (key) block"
     }
 }
