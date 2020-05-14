@@ -31,18 +31,18 @@
     },
     "Svelte each block": {
         "prefix": "sveach",
-        "body": ["{:each ${1:items} as ${2:item}", "$0", "{/each}"],
+        "body": ["{:each ${1:items} as ${2:item}}", "$0", "{/each}"],
         "description": "Svelte each block"
     },
     "Svelte each (key) block": {
         "prefix": "sveachk",
-        "body": ["{:each ${1:items} as ${2:item} (${3:key})", "$0", "{/each}"],
+        "body": ["{:each ${1:items} as ${2:item} (${3:key})}", "$0", "{/each}"],
         "description": "Svelte each (key) block"
     },
     "Svelte each index(key) block": {
         "prefix": "sveachik",
         "body": [
-            "{:each ${1:items} as ${2:item}, ${3:index} (${4:key})",
+            "{:each ${1:items} as ${2:item}, ${3:index} (${4:key})}",
             "$0",
             "{/each}"
         ],
