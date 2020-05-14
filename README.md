@@ -6,17 +6,18 @@ This extension is providing you with common snippets to use in `.svelte` files
 
 ### Svelte
 
-| Snippet    | Description                                           |
-| ---------- | ----------------------------------------------------- |
-| `svbase`   | Single file component base                            |
-| `svif`     | Svelte {#if} {/if} block                              |
-| `svifelse` | Svelte {:else}block                                   |
-| `svelif`   | Svelte {:else if} block                               |
-| `sveach`   | Svelte {:else if} block                               |
-| `sveach`   | Svelte {#each} block                                  |
-| `sveachk`  | Svelte {#each (key)} block                            |
-| `sveachik` | Svelte {#each ,index (key)} block                     |
-| `svawait`  | Svelte {#await}...{:then}...{:catch}...{/await} block |
+| Snippet      | Description                                           |
+| ------------ | ----------------------------------------------------- |
+| `svbase`     | Single file component base                            |
+| `svif`       | Svelte {#if} {/if} block                              |
+| `svifelse`   | Svelte {:else}block                                   |
+| `svelif`     | Svelte {:else if} block                               |
+| `sveach`     | Svelte {:else if} block                               |
+| `sveach`     | Svelte {#each} block                                  |
+| `sveachk`    | Svelte {#each (key)} block                            |
+| `sveachik`   | Svelte {#each ,index (key)} block                     |
+| `svawait`    | Svelte {#await}...{:then}...{:catch}...{/await} block |
+| `svdispatch` | Svelte createEventDispatcher import line              |
 
 ### JavaScript
 

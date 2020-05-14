@@ -60,5 +60,10 @@
             "{/await}"
         ],
         "description": "Svelte each index (key) block"
+    },
+    "Svelte createEventDispatcher import": {
+        "prefix": "svdispatch",
+        "body": ["import { createEventDispatcher } from 'svelte';", "$0"],
+        "description": "Svelte createEventDispatcher import line"
     }
 }
